@@ -1,0 +1,23 @@
+{
+  "name": "sf-react-table",
+  "version": "1.0.0",
+  "description": "create reusable table for everybody for all beginner im pro but can you help me too for this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenPolFajardo/sf-react-table.git"
+  },
+  "keywords": [
+    "table",
+    "reuseable-table"
+  ],
+  "author": "Stephen Pol Fajardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenPolFajardo/sf-react-table/issues"
+  },
+  "homepage": "https://github.com/stephenPolFajardo/sf-react-table#readme"
+}
