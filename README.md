@@ -23,6 +23,19 @@ This project is a React application that includes a table component with search 
 ## Usage
 
 To start the development server and run the application, use the following command:
+# Example Screenshots
+
+This is the Table
+
+![Alt Text](./images/table.png)
+
+Modal
+
+
+![Alt Text](./images/modal.png)
 
 ```bash
 npm start
+
+
+
