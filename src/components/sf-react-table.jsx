@@ -23,11 +23,19 @@ const ReactTable = ({ data, columns, defaultSearch }) => {
   const handleSearch = (text) => {
     setSearchText(text.target.value);
     const filtered = data.filter((item) => {
+      // if (typeof text === "string" && typeof item[selectOption] === 'string') {
+      //   return item[selectOption].toLowerCase().includes(text.target.value.toLowerCase());
+      // } else if (typeof text === "number" && Number.isInteger(text)) {
+      //   return item[selectOption].includes(text.target.value);
+      // } else {
+      //   return false;
+      // }
       if (typeof text.target.value === 'string' && typeof item[selectOption] === 'string') {
         return item[selectOption].toLowerCase().includes(text.target.value.toLowerCase());
       }
       return false;
     });
+
     setFilteredData(filtered);
   };
 
@@ -77,6 +85,7 @@ const ReactTable = ({ data, columns, defaultSearch }) => {
         </div>
         <input
           placeholder="Search"
+          aria-label='Search'
           onChange={handleSearch}
           value={searchText}
           type="text"
